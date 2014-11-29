@@ -2,12 +2,11 @@
 <html lang="en">
 
 <head>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="Ellen Marhold" content="IBS-Hausübung">
 
     <title>Homepage - IBS HÜ</title>
 
@@ -44,7 +43,7 @@
                 <a href="#services">Links</a>
             </p>
             <p>
-                <a href="#about">Formular</a>
+                <a href="formular.html">Formular</a>
             </p>
             <p>
                 <a href="#contact">Impressum</a>
@@ -77,7 +76,7 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                <a href="https://github.com/MPompejus/hompagev1" target="_blank"><i class="fa fa-github-alt fa-stack-1x text-primary"></i></a>
                             </span>
                                 <h4>
                                     <strong>Repo Nr. 1</strong>
@@ -90,12 +89,13 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-cloud fa-stack-1x text-primary"></i>
+                                <a href="https://github.com/Idinya/IBShp" target="_blank"><i class="fa fa-github fa-stack-1x text-primary"></i></a>
                             </span>
                                 <h4>
                                     <strong>Repo Nr. 2</strong>
                                 </h4>
                                 <p>Mein Git-Repository.</p>
+                                <br />
                                 <a href="https://github.com/Idinya/IBShp" class="btn btn-light" target="_blank">Zu meinem Repo</a>
                             </div>
                         </div>
@@ -103,21 +103,21 @@
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
                                 <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-compass fa-stack-1x text-primary"></i>
+                                <a href="formular.html" target="_blank"><i class="fa fa-search fa-stack-1x text-primary"></i></a>
                             </span>
                                 <h4>
                                     <strong>Formular</strong>
                                 </h4>
-                                <p>Das WAI-AAA konforme Formular:</p>
-                                <a href="#about" class="btn btn-light">Zum Formular</a>
+                                <p>Das Such-Formular für die deutsche Wikipedia:</p>
+                                <a href="formular.html" class="btn btn-light" target="_blank">Zum Formular</a>
                             </div>
                         </div>
                         <div class="col-md-3 col-sm-6">
                             <div class="service-item">
                                 <span class="fa-stack fa-4x">
-                                <i class="fa fa-circle fa-stack-2x"></i>
-                                <i class="fa fa-shield fa-stack-1x text-primary"></i>
-                            </span>
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <a href="http://www.codecademy.com/users/Acridian/achievements" target="_blank"><i class="fa fa-graduation-cap fa-stack-1x text-primary"></i></a>
+                                </span>
                                 <h4>
                                     <strong>Codeacademy</strong>
                                 </h4>
@@ -131,70 +131,26 @@
                 </div>
                 <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
-        <br /><br /><br /><br /><br /><br /><br />
-    </section>
-    
-    
-    <!-- About -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>Formular</h2>
-                    <p class="lead">Dies ist ein barrierefreies Such-Formular nach WACG. Damit ist Artikel- und Volltextsuche im deutschen Wikipedia möglich.</p>
-                    <br /><br />
-                    <hr class="small">
-                    <br /><br />
-                    <a href="http://de.wikipedia.org" target="_blank">
-                    <img src="http://upload.wikimedia.org/wikipedia/commons/0/0b/Wikipedia_240x60.png"
-                        alt="wikipedia - die freie enzyklopädie" width="240" height="60" /></a> 
-                    <a href="http://wave.webaim.org/report#/http%3A%2F%2Fellenmarhold2.cloudcontrolled.com%2F" target="_blank"><img src="img/wcag2AAA-blue.png" alt="W3C-AAA Plakette"></a>
-                    <br /><br /><br />
-                    <form name="search" method="post" 
-                        action="http://de.wikipedia.org/wiki/Spezial:Suche" target="_blank">
-                        
-
-                        <div>
-                            <label for="suche">Suche:</label>
-                            <input id="suche" type="text" name="search" size="30" />
-                            <br /><br />
-                            <input class="lead" type="submit" name="go" value="Artikel" />
-                            <input class="lead" type="submit" name="fulltext" value="Suche" />
-                        </div>
-                    </form>
-                    <br /><br /><br /><br /><br /><br /><br /><br />
-                </div>
-            </div>
+            <br /><br /><br /><br /><br /><br /><br />
             <!-- /.row -->
         </div>
         <!-- /.container -->
     </section>
-
-    <!-- Call to Action -->
-    <section id="contact">
-        <aside class="call-to-action bg-primary">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h2>Impressum</h2>
-                    </div>
-                </div>
-            </div>
-        </aside>
 
     <!-- Footer -->
+    <section id="contact">
         <footer>
             <div class="container">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <h2>Impressum</h2>
+                    <br />
+                    <hr class="small">
+                    <br />
                     <h4><strong>Ellen Marhold</strong></h4>
                     <ul class="list-unstyled">
                         <!--<li><i class="fa fa-phone fa-fw"></i> (0641) 412-6745</li> -->
                         <li><i class="fa fa-envelope-o fa-fw"></i> ellen.marhold(at)mni.thm.de</li>
                     </ul>
-                    <hr class="small">
                     <br />
                         <!-- <ul class="list-inline">
                             <li>
@@ -208,13 +164,10 @@
                             </li>
                         </ul>  -->
                         
-                    <p><strong>Datenschutzerklärung</strong></p><p><strong>Geltungsbereich</strong></p><p>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter Ellen Marhold auf dieser Website (im folgenden “Angebot”) auf.<br />
-                    <br />
+                    <p><strong>Datenschutzerklärung</strong></p><p><strong>Geltungsbereich</strong></p><p>Diese Datenschutzerklärung klärt Nutzer über die Art, den Umfang und Zwecke der Erhebung und Verwendung personenbezogener Daten durch den verantwortlichen Anbieter Ellen Marhold auf dieser Website (im folgenden “Angebot”) auf.
                     Die rechtlichen Grundlagen des Datenschutzes finden sich im Bundesdatenschutzgesetz (BDSG) und dem Telemediengesetz (TMG).<br />
                     <br /></p>
-                    <p><strong>Zugriffsdaten/ Server-Logfiles</strong></p><p><span class="sd-muster-content">Der Anbieter (beziehungsweise sein Webspace-Provider) erhebt Daten über jeden Zugriff auf das Angebot (so genannte Serverlogfiles). Zu den Zugriffsdaten gehören:<br />
-                    <br />
-                    Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite), IP-Adresse und der anfragende Provider.<br />
+                    <p><strong>Zugriffsdaten/ Server-Logfiles</strong></p><p><span class="sd-muster-content">Der Anbieter (beziehungsweise sein Webspace-Provider) erhebt Daten über jeden Zugriff auf das Angebot (so genannte Serverlogfiles). Zu den Zugriffsdaten gehören: Name der abgerufenen Webseite, Datei, Datum und Uhrzeit des Abrufs, übertragene Datenmenge, Meldung über erfolgreichen Abruf, Browsertyp nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite), IP-Adresse und der anfragende Provider.<br />
                     <br />
                     Der Anbieter verwendet die Protokolldaten nur für statistische Auswertungen zum Zweck des Betriebs, der Sicherheit und der Optimierung des Angebotes. Der Anbieterbehält sich jedoch vor, die Protokolldaten nachträglich zu überprüfen, wenn aufgrund konkreter Anhaltspunkte der berechtigte Verdacht einer rechtswidrigen Nutzung besteht.</span></p><p><strong>Einbindung von Diensten und Inhalten Dritter</strong></p><p><span class="sd-muster-content">Es kann vorkommen, dass innerhalb dieses Onlineangebotes Inhalte Dritter, wie zum Beispiel Videos von YouTube, Kartenmaterial von Google-Maps, RSS-Feeds oder Grafiken von anderen Webseiten eingebunden werden. Dies setzt immer voraus, dass die Anbieter dieser Inhalte (nachfolgend bezeichnet als "Dritt-Anbieter") die IP-Adresse der Nutzer wahr nehmen. Denn ohne die IP-Adresse, könnten sie die Inhalte nicht an den Browser des jeweiligen Nutzers senden. Die IP-Adresse ist damit für die Darstellung dieser Inhalte erforderlich. Wir bemühen uns nur solche Inhalte zu verwenden, deren jeweilige Anbieter die IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Jedoch  haben wir keinen Einfluss darauf, falls die Dritt-Anbieter die IP-Adresse z.B. für statistische Zwecke speichern. Soweit dies uns bekannt ist, klären wir die Nutzer darüber auf.<br />
                     </span></p><p><strong>Widerruf, Änderungen, Berichtigungen und Aktualisierungen</strong></p><p>Der Nutzer hat das Recht, auf Antrag unentgeltlich Auskunft zu erhalten über die personenbezogenen Daten, die über ihn gespeichert wurden. Zusätzlich hat der Nutzer das Recht auf Berichtigung unrichtiger Daten, Sperrung und Löschung seiner personenbezogenen Daten, soweit dem keine gesetzliche Aufbewahrungspflicht entgegensteht.<br />
